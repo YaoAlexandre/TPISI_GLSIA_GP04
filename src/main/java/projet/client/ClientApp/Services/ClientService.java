@@ -29,6 +29,7 @@ public class ClientService {
         return clientRepository.save(client);
     }
 
+    // MISE A JOUR D'UN CLIENT
     public void updateClient(Client client, Long id){
         clientRepository.save(client);
     }
